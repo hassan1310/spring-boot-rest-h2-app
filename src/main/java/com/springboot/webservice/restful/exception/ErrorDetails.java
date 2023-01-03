@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 
 import lombok.Data;
 
-@Data
+@Data    //error response structure
 public class ErrorDetails {
 	
 	private LocalDateTime timeStamp;
